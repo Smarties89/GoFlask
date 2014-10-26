@@ -1,0 +1,6 @@
+export GOPATH=~/GoFlask
+
+echo "Building libraries"
+go build shttp
+echo "Building main"
+go run main.go
